@@ -177,8 +177,8 @@ switch (opcao) {
         else printf("Empate!\n");
         break;
 
-    case 5: // Densidade Demográfica (MENOR vence)
-        printf("Atributo: Densidade Demográfica\n");
+    case 5: // Densidade populacional (MENOR vence)
+        printf("Atributo: Densidade populacional\n");
         // Regra especial: menor valor vence
         if (densidade1 < densidade2) printf("Vencedor: Carta 1 - %s\n", cidade1);
         else if (densidade2 < densidade1) printf("Vencedor: Carta 2 - %s\n", cidade2);
